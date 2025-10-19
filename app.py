@@ -53,7 +53,7 @@ if st.button("Calculate GPA"):
     gpa = total_weighted_points / total_credits if total_credits > 0 else 0.0
 
     st.success(f"Semester GPA: **{gpa:.2f}**")
-    st.subheader("📊 Subject-wise Summary")
+    st.subheader("Subject-wise Summary")
     st.dataframe(df, use_container_width=True)
     st.markdown(f"**Total Credit Hours:** {total_credits}")
     st.markdown(f"**Total Grade Points:** {total_weighted_points:.2f}")
