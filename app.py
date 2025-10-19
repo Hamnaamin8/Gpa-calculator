@@ -91,7 +91,6 @@ if st.button("Calculate Overall CGPA"):
         st.error("Please enter valid credit hours before calculating CGPA.")
 
 # ------------------------------------------------------------
-# FOOTER
 # ------------------------------------------------------------
 st.markdown("---")
 st.markdown(
